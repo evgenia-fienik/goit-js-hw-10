@@ -8,6 +8,8 @@ const startButton = document.querySelector('button[data-start]');
 let userSelectedDate = null;
 let countdownInterval = null;
 
+startButton.disabled = true;
+
 const options = {
   enableTime: true,
   time_24hr: true,
